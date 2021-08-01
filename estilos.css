@@ -1,23 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: 0;
-}
-p{
-    margin-bottom: 50px;
-}
-footer{
+    font-family:  Roboto;
     
+}
+body{  
+    
+}
+
+.fondo{
+    background: linear-gradient(to bottom, #020024, #097952);
+    height: 100vh;
+}
+footer{  
     position: fixed;
     bottom:0;
     width: 100%;
-    background:red;
-    height:50px;
+    background:#31B16F;
+    height:70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px; 
 }
 footer div{   
     width:100%;  
@@ -27,6 +34,36 @@ ul{
 }
 li{
     list-style: none;
-    display: space-around;
     margin:auto;
+    padding:5px;
+    color:white;
+    border:1px solid white;
+    border-radius: 25%;
 }
+li a {
+    color:white;
+    font-size:25px
+}
+.titulo-principal{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+    
+}
+.titulo-principal h1 {
+    color:white;
+    text-align: center;
+}
+.datos p {
+    margin-top: 30px;
+    text-align:center;
+    font-size:80px;
+    color: white;
+}
+
+
+.botonbuscar{
+    text-decoration: none;
+}
+
