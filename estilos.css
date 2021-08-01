@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+p{
+    margin-bottom: 50px;
+}
+footer{
+    
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background:red;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+footer div{   
+    width:100%;  
+}
+ul{  
+    display: flex;    
+}
+li{
+    list-style: none;
+    display: space-around;
+    margin:auto;
+}
