@@ -1,10 +1,15 @@
 function modaldatos(){
     Swal.fire({
+        html:
+        'Desarrollador por <b>Frank Anthony Leyva Gomez  </b><br>, ' +
+        'Api usada '+
+        '<a href="https://openweathermap.org/">openweather</a> ' +
+        'Deseas ver el código fuerte?',
         showCloseButton: true,
         showCancelButton: true,
         focusConfirm: false,
         confirmButtonText:
-          '<a href="www.google.com" class="botonbuscar"><i class="fas fa-search"></i> Buscar!</a>',
+          '<a href="https://github.com/fleyvag/app_clima" class="botonbuscar"><i class="fas fa-arrow-left"></i> ir!!!</a>',
         confirmButtonAriaLabel: 'Thumbs up, great!',
         cancelButtonText:
           'cerrar',
