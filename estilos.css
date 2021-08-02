@@ -55,7 +55,7 @@ li a {
     color:white;
     text-align: center;
 }
-.datos p {
+.datos .temperatura {
     margin-top: 30px;
     text-align:center;
     font-size:80px;

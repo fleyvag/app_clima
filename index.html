@@ -8,13 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>app climatica</title>
 </head>
-<body>
+<body onload="onload()">
     <div class="fondo">
         <main>
             <div class="titulo-principal">
                 <div class="datos">
-                <h1>titulo</h1>
-                <p class="grados">23°</p></div>
+                <h1 id="location"></h1>
+                <p class="temperatura" id="temperature"></p>
+                <p class="humedad" id="humidity"></p>
+                <p class="presion" id="pressure"></p>
+            </div>
             </div>
            
         </main>
@@ -22,15 +25,13 @@
             <div>
                 <ul>
                     
-                    <li><a onclick="modalbuscar()"><i class="fas fa-search"></i></a></li>
+                    
                     <li><a href=""><i class="fas fa-code"></i></a></li>
-                    <li><a href=""><i class="fas fa-cog"></i></a></li>
+                    <li><a onclick="modaldatos()"><i class="fas fa-cog"></i></a></li>
                 </ul>
             </div>
         </footer>
     </div>
-
-   
 </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
