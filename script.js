@@ -4,7 +4,7 @@ function modaldatos(){
         'Desarrollador por <b>Frank Anthony Leyva Gomez  </b><br>, ' +
         'Api usada '+
         '<a href="https://openweathermap.org/">openweather</a> ' +
-        'Deseas ver el código fuerte?',
+        'Deseas ver el código fuente?',
         showCloseButton: true,
         showCancelButton: true,
         focusConfirm: false,
@@ -23,7 +23,7 @@ function modaldatos(){
 const API_KEY=`3b8251219f3964408f0b2f21acfb80c2`
     const fetchData = position => {
         const {latitude , longitude} = position.coords;
-        fetch(`http://api.openweathermap.org/data/2.5/weather?units=metric&lat=${latitude}&lon=${longitude}&appid=${API_KEY}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${latitude}&lon=${longitude}&appid=${API_KEY}`)
         .then(response =>response.json())//pasamos a  json
         .then(data=>setWeatherData(data)) //mostramos en consola
         // console.log(position);
